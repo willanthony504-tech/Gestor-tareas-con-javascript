@@ -7,7 +7,7 @@ const totalActividades = document.getElementById("totalActividades")
 const totalActividadesRealizadas = document.getElementById("totalActividadesRealizadas")
 const totalActividadesPendientes = document.getElementById("totalActividadesPendientes")
 const mensajeVacio = document.getElementById("mensajeVacio");
-
+document.getElementById("year").textContent = new Date().getFullYear();
 // Evento para agregar actividad al hacer click en el botón
 btnAgregar.addEventListener("click", agregarActividad);
 
